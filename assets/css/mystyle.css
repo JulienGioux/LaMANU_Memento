@@ -9,6 +9,34 @@ body {
 a{
     color: white;
 }
+a:hover {
+    color: darkorange;
+}
+a:visited {
+    color: gainsboro;
+}
+
+h1 {
+    color: darkorange;
+}
+section {
+    padding: 10px;
+}
+#logo {
+    width: 4rem;
+}
+#siteTitle {
+    display: inline-block;
+    color: darkorange;
+    margin-bottom: 0rem;
+    /* vertical-align: top; */
+}
+#siteHead {
+    padding-top: 10px;
+    text-align: center;
+    background-image: url("assets/img/picture.1570007820.jpg");
+
+}
 
 .topnav {
     list-style-type: none;
@@ -66,4 +94,19 @@ li.dropdown {
 
 .topnav > .right {
     float : right;
+}
+
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 2px 0px 0px 0px #ec6800;
+    font-style: italic;
+    color: #ec6800;
+}
+
+aside > p {
+    margin: .5rem;
 }
