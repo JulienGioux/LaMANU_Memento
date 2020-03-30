@@ -26,26 +26,28 @@
     <head>
         <title>Bienvenue sur mon Mémento</title>
         <meta charset="utf-8" />
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin,latin-ext">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin,latin-ext">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     </head>
     <body>
         <header>
-            <h1>Mémento perso</h1>
+            <h1>Mémento</h1>
             <p>Petit mémento de Julien Gioux</p>
         </header>
         <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="#">Catégories</a></li>
-                <ul>
-                    <li><a href="pages/git.html">Git</a></li>
-                    <li><a href="pages/html.html">Html</a></li>
-                    <li><a href="pages/css.html">CSS</a></li>
-                </ul>
+            <ul class="topnav">
+                <li class="active"><a href="index.html">Accueil</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#">Catégories</a>
+                        <div class="dropdown-content">
+                            <a href="pages/git.html">Git</a>
+                            <a href="pages/html.html">Html</a>
+                            <a href="pages/css.html">CSS</a>
+                        </div>
+                </li>
                 <li><a href="#">Liens/docs</a></li>
-                <li><a href="#">Me contacter</a></li>
+                <li class="right"><a href="#">Me contacter</a></li>
             </ul>
         </nav>
         <section>
@@ -55,7 +57,13 @@
             </aside>
             <article>               
                 <h1>Tralalalère</h1>
-                <p>je mange du poisson au petit déjeuner</p>
+                <ul>
+                    <li>dqsd</li>
+                    <li>qsdqsd</li>
+                    <li>qsdqs</li>
+                    <li>qsdqs</li>
+                </ul>
+                <p>je mange <a href="#">tt</a> du poisson au petit déjeuner</p>
             </article>
         </section>
 
