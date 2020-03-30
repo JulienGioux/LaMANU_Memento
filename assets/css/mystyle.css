@@ -3,15 +3,18 @@ body {
     background-color: rgb(24, 23, 23);
     color: gainsboro;
     font-family: "Open sans", helvetica, arial;
+    align-self: center;
 
 }
 
 a{
     color: white;
 }
+
 a:hover {
     color: darkorange;
 }
+
 a:visited {
     color: gainsboro;
 }
@@ -19,25 +22,58 @@ a:visited {
 h1 {
     color: darkorange;
 }
+
 section {
     padding: 10px;
 }
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 2px 0px 0px 0px #ec6800;
+    font-style: italic;
+    color: #ec6800;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+footer {
+    padding: 5px;
+    background-color: #333;
+}
+
 #logo {
     width: 4rem;
 }
 #siteTitle {
     display: inline-block;
-    color: darkorange;
-    margin-bottom: 0rem;
+    color: #ec6800;
+    margin-bottom: 0s;
     /* vertical-align: top; */
 }
 #siteHead {
-    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
-    background-image: url(./assets/img/picture.1570007820.jpg);
-
+    background-image: url("../img/picture.1570007820.jpg");
+    background-position: bottom;
+    background-size: 100%;
+    
+    background-color: transparent;
 }
 
+.unicons {
+    font-family: 'UniConsMedium';
+    font-size: xx-large;
+    vertical-align: middle;   
+}
+
+/* ################ */
+/* ## navbar ## */
+/* ################ */
 .topnav {
     list-style-type: none;
     margin: 0;
@@ -96,17 +132,6 @@ li.dropdown {
     float : right;
 }
 
-
-aside {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right;
-    box-shadow: inset 2px 0px 0px 0px #ec6800;
-    font-style: italic;
-    color: #ec6800;
-}
-
-aside > p {
-    margin: .5rem;
-}
+/* ################ */
+/* ## fin navbar ## */
+/* ################ */
